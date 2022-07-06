@@ -12,47 +12,47 @@
 
 ActiveRecord::Schema[7.0].define(version: 2022_07_06_150738) do
   # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
+  enable_extension 'plpgsql'
 
-  create_table "comments", force: :cascade do |t|
-    t.text "text"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.bigint "user_id", null: false
-    t.index ["user_id"], name: "index_comments_on_user_id"
+  create_table 'comments', force: :cascade do |t|
+    t.text 'text'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+    t.bigint 'user_id', null: false
+    t.index ['user_id'], name: 'index_comments_on_user_id'
   end
 
-  create_table "likes", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.bigint "user_id", null: false
-    t.index ["user_id"], name: "index_likes_on_user_id"
+  create_table 'likes', force: :cascade do |t|
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+    t.bigint 'user_id', null: false
+    t.index ['user_id'], name: 'index_likes_on_user_id'
   end
 
-  create_table "posts", force: :cascade do |t|
-    t.text "title"
-    t.text "text"
-    t.integer "commets_counter"
-    t.integer "likes_counter"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.bigint "user_id", null: false
-    t.index ["user_id"], name: "index_posts_on_user_id"
+  create_table 'posts', force: :cascade do |t|
+    t.text 'title'
+    t.text 'text'
+    t.integer 'commets_counter'
+    t.integer 'likes_counter'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+    t.bigint 'user_id', null: false
+    t.index ['user_id'], name: 'index_posts_on_user_id'
   end
 
-  create_table "users", force: :cascade do |t|
-    t.string "name"
-    t.string "photo"
-    t.text "bio"
-    t.decimal "posts_counter"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.bigint "user_id", null: false
-    t.index ["user_id"], name: "index_users_on_user_id"
+  create_table 'users', force: :cascade do |t|
+    t.string 'name'
+    t.string 'photo'
+    t.text 'bio'
+    t.decimal 'posts_counter'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+    t.bigint 'user_id', null: false
+    t.index ['user_id'], name: 'index_users_on_user_id'
   end
 
-  add_foreign_key "comments", "users"
-  add_foreign_key "likes", "users"
-  add_foreign_key "posts", "users"
-  add_foreign_key "users", "users"
+  add_foreign_key 'comments', 'users'
+  add_foreign_key 'likes', 'users'
+  add_foreign_key 'posts', 'users'
+  add_foreign_key 'users', 'users'
 end
