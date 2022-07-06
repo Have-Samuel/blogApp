@@ -1,6 +1,5 @@
 class Post < ActiveRecord::Base
-  belong_to :user
+  belongs_to :user
   has_many :likes
   has_many :comments
-  created
 end
