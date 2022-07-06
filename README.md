@@ -1,62 +1,40 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Blog App: Creating a data model
 
-> Description the project.
+> In this project, 
+***
+## Milestone I:
+***
+> User Migration file to build schema.
 
+[ERD Diagram](https://github.com/microverseinc/curriculum-rails/blob/main/blog-app/images/blog_app_erd.png)
 
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+### Basic Requirements:
+***
+* Create a new app.
+* Initialize project with Git.
+* project has Postgres database set up.
+* Build your project schema.
+* Create and run the necessary migration files.
+* Table and column names should match the ERD diagram.
+* note: photo for users table should be a link to an image
+* Foreign keys should be included.
+* All columns that are foreign keys should have a corresponding index.
 
 ## Authors
 
-👤 **Author1**
+👤 **Have Samuel**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [Have-Samuel](https://github.com/Have-Samuel)
+- Twitter: [@samhave1](https://twitter.com/@samhave1)
+- LinkedIn: [Have Samuel Kabreebe](https://linkedin.com/in/Have-Samuel-Kabreebe)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Have-Samuel/blogApp/issues).
 
 ## Show your support
 
@@ -64,9 +42,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
 
 ## 📝 License
 
