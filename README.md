@@ -1,24 +1,49 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Blog App: Creating a data model
 
-Things you may want to cover:
+> In this project, 
+***
+## Milestone I:
+***
+> User Migration file to build schema.
 
-* Ruby version
+[ERD Diagram](https://github.com/microverseinc/curriculum-rails/blob/main/blog-app/images/blog_app_erd.png)
 
-* System dependencies
+### Basic Requirements:
+***
+* Create a new app.
+* Initialize project with Git.
+* project has Postgres database set up.
+* Build your project schema.
+* Create and run the necessary migration files.
+* Table and column names should match the ERD diagram.
+* note: photo for users table should be a link to an image
+* Foreign keys should be included.
+* All columns that are foreign keys should have a corresponding index.
 
-* Configuration
+## Authors
 
-* Database creation
+👤 **Have Samuel**
 
-* Database initialization
+- GitHub: [Have-Samuel](https://github.com/Have-Samuel)
+- Twitter: [@samhave1](https://twitter.com/@samhave1)
+- LinkedIn: [Have Samuel Kabreebe](https://linkedin.com/in/Have-Samuel-Kabreebe)
 
-* How to run the test suite
+## 🤝 Contributing
 
-* Services (job queues, cache servers, search engines, etc.)
+Contributions, issues, and feature requests are welcome!
 
-* Deployment instructions
+Feel free to check the [issues page](https://github.com/Have-Samuel/blogApp/issues).
 
-* ...
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
