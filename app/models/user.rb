@@ -8,5 +8,5 @@ class User < ActiveRecord::Base
   end
 end
 
-# Dan = User.select(:id).find_by(name: 'Dan')
-# post = Post.first
+Dan = User.select(:id).find_by(name: 'Dan')
+post = Post.first
