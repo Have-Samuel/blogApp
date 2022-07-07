@@ -9,3 +9,6 @@ class CreateUsers < ActiveRecord::Migration[7.0]
     end
   end
 end
+
+# User.create(name: 'Have', photo: 'https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+# ', bio: 'Have is Mcro')
