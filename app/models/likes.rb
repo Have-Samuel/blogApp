@@ -6,6 +6,7 @@ class Like < ActiveRecord::Base
   private
 
   def update_likes_counter
-    user.increment!(:likes_counter)
+    post.likes_counter = 0 if post.likes_counter.nil?
+    post.increment!(:likes_counter)
   end
 end
