@@ -5,4 +5,8 @@ class Like < ActiveRecord::Base
   def update_likes_conuter
     post.increment!(:likes_counter)
   end
+
+  after_save :update_post_conuter
+    private
+    
 end
