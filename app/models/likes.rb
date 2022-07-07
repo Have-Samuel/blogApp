@@ -7,6 +7,4 @@ class Like < ActiveRecord::Base
   end
 
   after_save :update_post_conuter
-    private
-    
 end

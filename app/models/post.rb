@@ -7,12 +7,11 @@ class Post < ActiveRecord::Base
     user.increment!(:post_counter)
   end
 
-  after_save :update_post_conuter
-    private
+  private
 
-    def update_post_conuter
-      author.increment!(:post_counter)
-    end
+  # def update_post_conuter
+  #   author.increment!(:post_counter)
+  # end
 
   def last_5_comments
     comments.order!(created_at: :desc).limit(5)
