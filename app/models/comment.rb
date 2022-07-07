@@ -7,4 +7,4 @@ class Comment < ActiveRecord::Base
   end
 end
 
-post = Post.new(comments_counter)
+# post = Post.new(comments_counter)
