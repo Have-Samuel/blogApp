@@ -1,10 +1,11 @@
 class Like < ActiveRecord::Base
+  after_save :update_likes_counter
   belongs_to :user, foreign_key: :author_id
   belongs_to post, foreign_key: :post_id
 
-  def update_likes_conuter
-    post.increment!(:likes_counter)
-  end
+  private
 
-  after_save :update_post_conuter
+  def update_likes_counter
+    user.increment!(:likes_counter)
+  end
 end
