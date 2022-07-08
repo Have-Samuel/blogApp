@@ -1,0 +1,190 @@
++ [rbenv:23] enable -f /usr/bin/../libexec/rbenv-realpath.dylib realpath
++ [rbenv:29] '[' -z '' ']'
+++ [rbenv:31] type -p greadlink readlink
+++ [rbenv:31] head -1
++ [rbenv:31] READLINK=/bin/readlink
++ [rbenv:32] '[' -n /bin/readlink ']'
++ [rbenv:53] '[' -z '' ']'
++ [rbenv:54] RBENV_ROOT=/home/samuel/.rbenv
++ [rbenv:58] export RBENV_ROOT
++ [rbenv:60] '[' -z '' ']'
++ [rbenv:61] RBENV_DIR=/home/samuel/Desktop/module5/blogApp
++ [rbenv:67] export RBENV_DIR
++ [rbenv:70] shopt -s nullglob
+++ [rbenv:72] abs_dirname /usr/bin/rbenv
+++ [rbenv:39] local cwd=/home/samuel/Desktop/module5/blogApp
+++ [rbenv:40] local path=/usr/bin/rbenv
+++ [rbenv:42] '[' -n /usr/bin/rbenv ']'
+++ [rbenv:43] cd /usr/bin
+++ [rbenv:44] local name=rbenv
++++ [rbenv:45] resolve_link rbenv
++++ [rbenv:35] /bin/readlink rbenv
+++ [rbenv:45] path=../lib/rbenv/libexec/rbenv
+++ [rbenv:42] '[' -n ../lib/rbenv/libexec/rbenv ']'
+++ [rbenv:43] cd ../lib/rbenv/libexec
+++ [rbenv:44] local name=rbenv
++++ [rbenv:45] resolve_link rbenv
++++ [rbenv:35] /bin/readlink rbenv
++++ [rbenv:45] true
+++ [rbenv:45] path=
+++ [rbenv:42] '[' -n '' ']'
+++ [rbenv:48] pwd
+++ [rbenv:49] cd /home/samuel/Desktop/module5/blogApp
++ [rbenv:72] bin_path=/usr/lib/rbenv/libexec
++ [rbenv:76] export PATH=/usr/lib/rbenv/libexec:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/plugins/ruby-build/bin:/home/samuel/.rbenv/shims:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/plugins/ruby-build/bin:/home/samuel/.rbenv/shims:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/shims:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/plugins/ruby-build/bin:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/plugins/ruby-build/bin:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/plugins/ruby-build/bin:/home/samuel/.rbenv/shims:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/plugins/ruby-build/bin:/home/samuel/.rbenv/shims:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/shims:/home/samuel/.rbenv/bin:/home/james/.rbenv/shims:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/plugins/ruby-build/bin:/home/samuel/.rbenv/shims:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/plugins/ruby-build/bin:/home/samuel/.rbenv/shims:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/shims:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/plugins/ruby-build/bin:/home/samuel/.rbenv/shims:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/plugins/ruby-build/bin:/home/samuel/.rbenv/shims:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/shims:/home/samuel/.rbenv/bin:/home/samuel/.nvm/versions/node/v17.8.0/bin:/home/samuel/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
++ [rbenv:76] PATH=/usr/lib/rbenv/libexec:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/plugins/ruby-build/bin:/home/samuel/.rbenv/shims:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/plugins/ruby-build/bin:/home/samuel/.rbenv/shims:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/shims:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/plugins/ruby-build/bin:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/plugins/ruby-build/bin:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/plugins/ruby-build/bin:/home/samuel/.rbenv/shims:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/plugins/ruby-build/bin:/home/samuel/.rbenv/shims:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/shims:/home/samuel/.rbenv/bin:/home/james/.rbenv/shims:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/plugins/ruby-build/bin:/home/samuel/.rbenv/shims:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/plugins/ruby-build/bin:/home/samuel/.rbenv/shims:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/shims:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/plugins/ruby-build/bin:/home/samuel/.rbenv/shims:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/plugins/ruby-build/bin:/home/samuel/.rbenv/shims:/home/samuel/.rbenv/bin:/home/samuel/.rbenv/shims:/home/samuel/.rbenv/bin:/home/samuel/.nvm/versions/node/v17.8.0/bin:/home/samuel/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
++ [rbenv:78] RBENV_HOOK_PATH=:/home/samuel/.rbenv/rbenv.d
++ [rbenv:79] '[' /usr/lib/rbenv '!=' /home/samuel/.rbenv ']'
++ [rbenv:81] RBENV_HOOK_PATH=:/home/samuel/.rbenv/rbenv.d:/usr/lib/rbenv/rbenv.d
++ [rbenv:83] RBENV_HOOK_PATH=:/home/samuel/.rbenv/rbenv.d:/usr/lib/rbenv/rbenv.d:/usr/local/etc/rbenv.d:/etc/rbenv.d:/usr/lib/rbenv/hooks
++ [rbenv:87] RBENV_HOOK_PATH=/home/samuel/.rbenv/rbenv.d:/usr/lib/rbenv/rbenv.d:/usr/local/etc/rbenv.d:/etc/rbenv.d:/usr/lib/rbenv/hooks
++ [rbenv:88] export RBENV_HOOK_PATH
++ [rbenv:90] shopt -u nullglob
++ [rbenv:93] command=version
++ [rbenv:94] case "$command" in
+++ [rbenv:107] command -v rbenv-version
++ [rbenv:107] command_path=/usr/lib/rbenv/libexec/rbenv-version
++ [rbenv:108] '[' -n /usr/lib/rbenv/libexec/rbenv-version ']'
++ [rbenv:110] shift 1
++ [rbenv:111] '[' '' = --help ']'
++ [rbenv:118] exec /usr/lib/rbenv/libexec/rbenv-version
+++ [rbenv-version:11] rbenv-version-name
++ [rbenv-version-name:6] '[' -z '' ']'
+++ [rbenv-version-name:7] rbenv-version-file
++ [rbenv-version-file:7] target_dir=
++ [rbenv-version-file:22] '[' -n '' ']'
++ [rbenv-version-file:25] find_local_version_file /home/samuel/Desktop/module5/blogApp
++ [rbenv-version-file:10] local root=/home/samuel/Desktop/module5/blogApp
++ [rbenv-version-file:11] [[ /home/samuel/Desktop/module5/blogApp =~ ^//[^/]*$ ]]
++ [rbenv-version-file:12] '[' -e /home/samuel/Desktop/module5/blogApp/.ruby-version ']'
++ [rbenv-version-file:13] echo /home/samuel/Desktop/module5/blogApp/.ruby-version
++ [rbenv-version-file:14] return 0
++ [rbenv-version-name:7] RBENV_VERSION_FILE=/home/samuel/Desktop/module5/blogApp/.ruby-version
+++ [rbenv-version-name:8] rbenv-version-file-read /home/samuel/Desktop/module5/blogApp/.ruby-version
++ [rbenv-version-file-read:6] VERSION_FILE=/home/samuel/Desktop/module5/blogApp/.ruby-version
++ [rbenv-version-file-read:8] '[' -e /home/samuel/Desktop/module5/blogApp/.ruby-version ']'
++ [rbenv-version-file-read:11] IFS=' 	
+'
++ [rbenv-version-file-read:12] words=($(cut -b 1-1024 "$VERSION_FILE"))
+++ [rbenv-version-file-read:12] cut -b 1-1024 /home/samuel/Desktop/module5/blogApp/.ruby-version
++ [rbenv-version-file-read:13] version=3.0.1
++ [rbenv-version-file-read:15] '[' -n 3.0.1 ']'
++ [rbenv-version-file-read:16] echo 3.0.1
++ [rbenv-version-file-read:17] exit
++ [rbenv-version-name:8] RBENV_VERSION=3.0.1
++ [rbenv-version-name:11] OLDIFS=' 	
+'
++ [rbenv-version-name:12] IFS='
+'
++ [rbenv-version-name:12] scripts=(`rbenv-hooks version-name`)
+++ [rbenv-version-name:12] rbenv-hooks version-name
++ [rbenv-hooks:9] '[' version-name = --complete ']'
++ [rbenv-hooks:18] RBENV_COMMAND=version-name
++ [rbenv-hooks:19] '[' -z version-name ']'
++ [rbenv-hooks:24] enable -f /usr/lib/rbenv/libexec/rbenv-realpath.dylib realpath
++ [rbenv-hooks:25] '[' -n '' ']'
+++ [rbenv-hooks:29] type -p greadlink readlink
+++ [rbenv-hooks:29] head -1
++ [rbenv-hooks:29] READLINK=/bin/readlink
++ [rbenv-hooks:30] '[' -z /bin/readlink ']'
++ [rbenv-hooks:55] IFS=:
++ [rbenv-hooks:55] hook_paths=($RBENV_HOOK_PATH)
++ [rbenv-hooks:57] shopt -s nullglob
++ [rbenv-hooks:58] for path in "${hook_paths[@]}"
++ [rbenv-hooks:58] for path in "${hook_paths[@]}"
++ [rbenv-hooks:58] for path in "${hook_paths[@]}"
++ [rbenv-hooks:58] for path in "${hook_paths[@]}"
++ [rbenv-hooks:58] for path in "${hook_paths[@]}"
++ [rbenv-hooks:63] shopt -u nullglob
++ [rbenv-version-name:13] IFS=' 	
+'
++ [rbenv-version-name:18] '[' -z 3.0.1 ']'
++ [rbenv-version-name:18] '[' 3.0.1 = system ']'
++ [rbenv-version-name:28] version_exists 3.0.1
++ [rbenv-version-name:24] local version=3.0.1
++ [rbenv-version-name:25] '[' -d /home/samuel/.rbenv/versions/3.0.1 ']'
++ [rbenv-version-name:30] version_exists 3.0.1
++ [rbenv-version-name:24] local version=3.0.1
++ [rbenv-version-name:25] '[' -d /home/samuel/.rbenv/versions/3.0.1 ']'
+++ [rbenv-version-name:33] rbenv-version-origin
++ [rbenv-version-origin:6] unset RBENV_VERSION_ORIGIN
++ [rbenv-version-origin:8] OLDIFS=' 	
+'
++ [rbenv-version-origin:9] IFS='
+'
++ [rbenv-version-origin:9] scripts=(`rbenv-hooks version-origin`)
+++ [rbenv-version-origin:9] rbenv-hooks version-origin
++ [rbenv-hooks:9] '[' version-origin = --complete ']'
++ [rbenv-hooks:18] RBENV_COMMAND=version-origin
++ [rbenv-hooks:19] '[' -z version-origin ']'
++ [rbenv-hooks:24] enable -f /usr/lib/rbenv/libexec/rbenv-realpath.dylib realpath
++ [rbenv-hooks:25] '[' -n '' ']'
+++ [rbenv-hooks:29] type -p greadlink readlink
+++ [rbenv-hooks:29] head -1
++ [rbenv-hooks:29] READLINK=/bin/readlink
++ [rbenv-hooks:30] '[' -z /bin/readlink ']'
++ [rbenv-hooks:55] IFS=:
++ [rbenv-hooks:55] hook_paths=($RBENV_HOOK_PATH)
++ [rbenv-hooks:57] shopt -s nullglob
++ [rbenv-hooks:58] for path in "${hook_paths[@]}"
++ [rbenv-hooks:58] for path in "${hook_paths[@]}"
++ [rbenv-hooks:58] for path in "${hook_paths[@]}"
++ [rbenv-hooks:58] for path in "${hook_paths[@]}"
++ [rbenv-hooks:58] for path in "${hook_paths[@]}"
++ [rbenv-hooks:63] shopt -u nullglob
++ [rbenv-version-origin:10] IFS=' 	
+'
++ [rbenv-version-origin:15] '[' -n '' ']'
++ [rbenv-version-origin:17] '[' -n '' ']'
++ [rbenv-version-origin:20] rbenv-version-file
++ [rbenv-version-file:7] target_dir=
++ [rbenv-version-file:22] '[' -n '' ']'
++ [rbenv-version-file:25] find_local_version_file /home/samuel/Desktop/module5/blogApp
++ [rbenv-version-file:10] local root=/home/samuel/Desktop/module5/blogApp
++ [rbenv-version-file:11] [[ /home/samuel/Desktop/module5/blogApp =~ ^//[^/]*$ ]]
++ [rbenv-version-file:12] '[' -e /home/samuel/Desktop/module5/blogApp/.ruby-version ']'
++ [rbenv-version-file:13] echo /home/samuel/Desktop/module5/blogApp/.ruby-version
++ [rbenv-version-file:14] return 0
++ [rbenv-version-name:33] echo 'rbenv: version `3.0.1'\'' is not installed (set by /home/samuel/Desktop/module5/blogApp/.ruby-version)'
+rbenv: version `3.0.1' is not installed (set by /home/samuel/Desktop/module5/blogApp/.ruby-version)
++ [rbenv-version-name:34] exit 1
+++ [rbenv-version:11] rbenv-version-origin
++ [rbenv-version-origin:6] unset RBENV_VERSION_ORIGIN
++ [rbenv-version-origin:8] OLDIFS=' 	
+'
++ [rbenv-version-origin:9] IFS='
+'
++ [rbenv-version-origin:9] scripts=(`rbenv-hooks version-origin`)
+++ [rbenv-version-origin:9] rbenv-hooks version-origin
++ [rbenv-hooks:9] '[' version-origin = --complete ']'
++ [rbenv-hooks:18] RBENV_COMMAND=version-origin
++ [rbenv-hooks:19] '[' -z version-origin ']'
++ [rbenv-hooks:24] enable -f /usr/lib/rbenv/libexec/rbenv-realpath.dylib realpath
++ [rbenv-hooks:25] '[' -n '' ']'
+++ [rbenv-hooks:29] type -p greadlink readlink
+++ [rbenv-hooks:29] head -1
++ [rbenv-hooks:29] READLINK=/bin/readlink
++ [rbenv-hooks:30] '[' -z /bin/readlink ']'
++ [rbenv-hooks:55] IFS=:
++ [rbenv-hooks:55] hook_paths=($RBENV_HOOK_PATH)
++ [rbenv-hooks:57] shopt -s nullglob
++ [rbenv-hooks:58] for path in "${hook_paths[@]}"
++ [rbenv-hooks:58] for path in "${hook_paths[@]}"
++ [rbenv-hooks:58] for path in "${hook_paths[@]}"
++ [rbenv-hooks:58] for path in "${hook_paths[@]}"
++ [rbenv-hooks:58] for path in "${hook_paths[@]}"
++ [rbenv-hooks:63] shopt -u nullglob
++ [rbenv-version-origin:10] IFS=' 	
+'
++ [rbenv-version-origin:15] '[' -n '' ']'
++ [rbenv-version-origin:17] '[' -n '' ']'
++ [rbenv-version-origin:20] rbenv-version-file
++ [rbenv-version-file:7] target_dir=
++ [rbenv-version-file:22] '[' -n '' ']'
++ [rbenv-version-file:25] find_local_version_file /home/samuel/Desktop/module5/blogApp
++ [rbenv-version-file:10] local root=/home/samuel/Desktop/module5/blogApp
++ [rbenv-version-file:11] [[ /home/samuel/Desktop/module5/blogApp =~ ^//[^/]*$ ]]
++ [rbenv-version-file:12] '[' -e /home/samuel/Desktop/module5/blogApp/.ruby-version ']'
++ [rbenv-version-file:13] echo /home/samuel/Desktop/module5/blogApp/.ruby-version
++ [rbenv-version-file:14] return 0
++ [rbenv-version:11] echo ' (set by /home/samuel/Desktop/module5/blogApp/.ruby-version)'
