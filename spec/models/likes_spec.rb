@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe Likes, type: :model do
   subject { Likes.new(user: User.first, post: Post.first) }
 
-  before{ subject.save }
+  before { subject.save }
 
   it 'author should be present' do
     subject.author = nil

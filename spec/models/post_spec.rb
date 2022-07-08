@@ -40,12 +40,12 @@ RSpec.describe Post, type: :model do
   end
 
   describe '#update_post_counter' do
-  it 'should increment the post_counter of the user' do
-    post_counter = subject.user.post_counter
-    subject.update_post_counter
-    expect(subject.user.post_counter).to eq(post_counter + 1)
+    it 'should increment the post_counter of the user' do
+      post_counter = subject.user.post_counter
+      subject.update_post_counter
+      expect(subject.user.post_counter).to eq(post_counter + 1)
+    end
   end
-end
 
   describe 'last_5_comments' do
     it 'should return the last_5_comments' do
